@@ -1,0 +1,19 @@
+.header {
+    font-weight: bold;
+    font-size: 64px;
+    color: #f98e1d;
+}
+
+@media only screen and (max-width: 768px) {
+    .basicImage {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .basicImage {
+        width: 600px;
+        height: 500px;
+    }
+}
